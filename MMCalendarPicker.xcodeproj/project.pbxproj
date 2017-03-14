@@ -1,0 +1,549 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B0380EF81DD1C6EA00BC487C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380EF71DD1C6EA00BC487C /* main.m */; };
+		B0380EFB1DD1C6EA00BC487C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380EFA1DD1C6EA00BC487C /* AppDelegate.m */; };
+		B0380EFE1DD1C6EA00BC487C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380EFD1DD1C6EA00BC487C /* ViewController.m */; };
+		B0380F011DD1C6EA00BC487C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0380EFF1DD1C6EA00BC487C /* Main.storyboard */; };
+		B0380F031DD1C6EA00BC487C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0380F021DD1C6EA00BC487C /* Assets.xcassets */; };
+		B0380F061DD1C6EA00BC487C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0380F041DD1C6EA00BC487C /* LaunchScreen.storyboard */; };
+		B0380F111DD1C6EA00BC487C /* MMCalendarPickerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380F101DD1C6EA00BC487C /* MMCalendarPickerTests.m */; };
+		B0380F1C1DD1C6EA00BC487C /* MMCalendarPickerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380F1B1DD1C6EA00BC487C /* MMCalendarPickerUITests.m */; };
+		B0380F2B1DD1C70B00BC487C /* MMCalendarPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380F2A1DD1C70B00BC487C /* MMCalendarPicker.m */; };
+		B0380F2E1DD1C75E00BC487C /* MMCalendarCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0380F2D1DD1C75E00BC487C /* MMCalendarCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0380F0D1DD1C6EA00BC487C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0380EEB1DD1C6EA00BC487C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0380EF21DD1C6EA00BC487C;
+			remoteInfo = MMCalendarPicker;
+		};
+		B0380F181DD1C6EA00BC487C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0380EEB1DD1C6EA00BC487C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0380EF21DD1C6EA00BC487C;
+			remoteInfo = MMCalendarPicker;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B0380EF31DD1C6EA00BC487C /* MMCalendarPicker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MMCalendarPicker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0380EF71DD1C6EA00BC487C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B0380EF91DD1C6EA00BC487C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B0380EFA1DD1C6EA00BC487C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B0380EFC1DD1C6EA00BC487C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B0380EFD1DD1C6EA00BC487C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B0380F001DD1C6EA00BC487C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0380F021DD1C6EA00BC487C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0380F051DD1C6EA00BC487C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0380F071DD1C6EA00BC487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0380F0C1DD1C6EA00BC487C /* MMCalendarPickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCalendarPickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0380F101DD1C6EA00BC487C /* MMCalendarPickerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarPickerTests.m; sourceTree = "<group>"; };
+		B0380F121DD1C6EA00BC487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0380F171DD1C6EA00BC487C /* MMCalendarPickerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MMCalendarPickerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0380F1B1DD1C6EA00BC487C /* MMCalendarPickerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MMCalendarPickerUITests.m; sourceTree = "<group>"; };
+		B0380F1D1DD1C6EA00BC487C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0380F291DD1C70B00BC487C /* MMCalendarPicker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarPicker.h; sourceTree = "<group>"; };
+		B0380F2A1DD1C70B00BC487C /* MMCalendarPicker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarPicker.m; sourceTree = "<group>"; };
+		B0380F2C1DD1C75E00BC487C /* MMCalendarCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMCalendarCell.h; sourceTree = "<group>"; };
+		B0380F2D1DD1C75E00BC487C /* MMCalendarCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMCalendarCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0380EF01DD1C6EA00BC487C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0380F091DD1C6EA00BC487C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0380F141DD1C6EA00BC487C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0380EEA1DD1C6EA00BC487C = {
+			isa = PBXGroup;
+			children = (
+				B0380EF51DD1C6EA00BC487C /* MMCalendarPicker */,
+				B0380F0F1DD1C6EA00BC487C /* MMCalendarPickerTests */,
+				B0380F1A1DD1C6EA00BC487C /* MMCalendarPickerUITests */,
+				B0380EF41DD1C6EA00BC487C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0380EF41DD1C6EA00BC487C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0380EF31DD1C6EA00BC487C /* MMCalendarPicker.app */,
+				B0380F0C1DD1C6EA00BC487C /* MMCalendarPickerTests.xctest */,
+				B0380F171DD1C6EA00BC487C /* MMCalendarPickerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0380EF51DD1C6EA00BC487C /* MMCalendarPicker */ = {
+			isa = PBXGroup;
+			children = (
+				B0380EF91DD1C6EA00BC487C /* AppDelegate.h */,
+				B0380EFA1DD1C6EA00BC487C /* AppDelegate.m */,
+				B0380EFC1DD1C6EA00BC487C /* ViewController.h */,
+				B0380EFD1DD1C6EA00BC487C /* ViewController.m */,
+				B0380EFF1DD1C6EA00BC487C /* Main.storyboard */,
+				B0380F021DD1C6EA00BC487C /* Assets.xcassets */,
+				B0380F041DD1C6EA00BC487C /* LaunchScreen.storyboard */,
+				B0380F071DD1C6EA00BC487C /* Info.plist */,
+				B0380EF61DD1C6EA00BC487C /* Supporting Files */,
+				B0380F291DD1C70B00BC487C /* MMCalendarPicker.h */,
+				B0380F2A1DD1C70B00BC487C /* MMCalendarPicker.m */,
+				B0380F2C1DD1C75E00BC487C /* MMCalendarCell.h */,
+				B0380F2D1DD1C75E00BC487C /* MMCalendarCell.m */,
+			);
+			path = MMCalendarPicker;
+			sourceTree = "<group>";
+		};
+		B0380EF61DD1C6EA00BC487C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B0380EF71DD1C6EA00BC487C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B0380F0F1DD1C6EA00BC487C /* MMCalendarPickerTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0380F101DD1C6EA00BC487C /* MMCalendarPickerTests.m */,
+				B0380F121DD1C6EA00BC487C /* Info.plist */,
+			);
+			path = MMCalendarPickerTests;
+			sourceTree = "<group>";
+		};
+		B0380F1A1DD1C6EA00BC487C /* MMCalendarPickerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0380F1B1DD1C6EA00BC487C /* MMCalendarPickerUITests.m */,
+				B0380F1D1DD1C6EA00BC487C /* Info.plist */,
+			);
+			path = MMCalendarPickerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0380EF21DD1C6EA00BC487C /* MMCalendarPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0380F201DD1C6EA00BC487C /* Build configuration list for PBXNativeTarget "MMCalendarPicker" */;
+			buildPhases = (
+				B0380EEF1DD1C6EA00BC487C /* Sources */,
+				B0380EF01DD1C6EA00BC487C /* Frameworks */,
+				B0380EF11DD1C6EA00BC487C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MMCalendarPicker;
+			productName = MMCalendarPicker;
+			productReference = B0380EF31DD1C6EA00BC487C /* MMCalendarPicker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0380F0B1DD1C6EA00BC487C /* MMCalendarPickerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0380F231DD1C6EA00BC487C /* Build configuration list for PBXNativeTarget "MMCalendarPickerTests" */;
+			buildPhases = (
+				B0380F081DD1C6EA00BC487C /* Sources */,
+				B0380F091DD1C6EA00BC487C /* Frameworks */,
+				B0380F0A1DD1C6EA00BC487C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0380F0E1DD1C6EA00BC487C /* PBXTargetDependency */,
+			);
+			name = MMCalendarPickerTests;
+			productName = MMCalendarPickerTests;
+			productReference = B0380F0C1DD1C6EA00BC487C /* MMCalendarPickerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0380F161DD1C6EA00BC487C /* MMCalendarPickerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0380F261DD1C6EA00BC487C /* Build configuration list for PBXNativeTarget "MMCalendarPickerUITests" */;
+			buildPhases = (
+				B0380F131DD1C6EA00BC487C /* Sources */,
+				B0380F141DD1C6EA00BC487C /* Frameworks */,
+				B0380F151DD1C6EA00BC487C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0380F191DD1C6EA00BC487C /* PBXTargetDependency */,
+			);
+			name = MMCalendarPickerUITests;
+			productName = MMCalendarPickerUITests;
+			productReference = B0380F171DD1C6EA00BC487C /* MMCalendarPickerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0380EEB1DD1C6EA00BC487C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "马扬";
+				TargetAttributes = {
+					B0380EF21DD1C6EA00BC487C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M99GJD8799;
+						ProvisioningStyle = Automatic;
+					};
+					B0380F0B1DD1C6EA00BC487C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M99GJD8799;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0380EF21DD1C6EA00BC487C;
+					};
+					B0380F161DD1C6EA00BC487C = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = M99GJD8799;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0380EF21DD1C6EA00BC487C;
+					};
+				};
+			};
+			buildConfigurationList = B0380EEE1DD1C6EA00BC487C /* Build configuration list for PBXProject "MMCalendarPicker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0380EEA1DD1C6EA00BC487C;
+			productRefGroup = B0380EF41DD1C6EA00BC487C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0380EF21DD1C6EA00BC487C /* MMCalendarPicker */,
+				B0380F0B1DD1C6EA00BC487C /* MMCalendarPickerTests */,
+				B0380F161DD1C6EA00BC487C /* MMCalendarPickerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0380EF11DD1C6EA00BC487C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0380F061DD1C6EA00BC487C /* LaunchScreen.storyboard in Resources */,
+				B0380F031DD1C6EA00BC487C /* Assets.xcassets in Resources */,
+				B0380F011DD1C6EA00BC487C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0380F0A1DD1C6EA00BC487C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0380F151DD1C6EA00BC487C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0380EEF1DD1C6EA00BC487C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0380EFE1DD1C6EA00BC487C /* ViewController.m in Sources */,
+				B0380EFB1DD1C6EA00BC487C /* AppDelegate.m in Sources */,
+				B0380EF81DD1C6EA00BC487C /* main.m in Sources */,
+				B0380F2B1DD1C70B00BC487C /* MMCalendarPicker.m in Sources */,
+				B0380F2E1DD1C75E00BC487C /* MMCalendarCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0380F081DD1C6EA00BC487C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0380F111DD1C6EA00BC487C /* MMCalendarPickerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0380F131DD1C6EA00BC487C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0380F1C1DD1C6EA00BC487C /* MMCalendarPickerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0380F0E1DD1C6EA00BC487C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0380EF21DD1C6EA00BC487C /* MMCalendarPicker */;
+			targetProxy = B0380F0D1DD1C6EA00BC487C /* PBXContainerItemProxy */;
+		};
+		B0380F191DD1C6EA00BC487C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0380EF21DD1C6EA00BC487C /* MMCalendarPicker */;
+			targetProxy = B0380F181DD1C6EA00BC487C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0380EFF1DD1C6EA00BC487C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0380F001DD1C6EA00BC487C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0380F041DD1C6EA00BC487C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0380F051DD1C6EA00BC487C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0380F1E1DD1C6EA00BC487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B0380F1F1DD1C6EA00BC487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0380F211DD1C6EA00BC487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M99GJD8799;
+				INFOPLIST_FILE = MMCalendarPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QQ-744245104.MMCalendarPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B0380F221DD1C6EA00BC487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M99GJD8799;
+				INFOPLIST_FILE = MMCalendarPicker/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QQ-744245104.MMCalendarPicker";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B0380F241DD1C6EA00BC487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M99GJD8799;
+				INFOPLIST_FILE = MMCalendarPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QQ-744245104.MMCalendarPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMCalendarPicker.app/MMCalendarPicker";
+			};
+			name = Debug;
+		};
+		B0380F251DD1C6EA00BC487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = M99GJD8799;
+				INFOPLIST_FILE = MMCalendarPickerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QQ-744245104.MMCalendarPickerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MMCalendarPicker.app/MMCalendarPicker";
+			};
+			name = Release;
+		};
+		B0380F271DD1C6EA00BC487C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M99GJD8799;
+				INFOPLIST_FILE = MMCalendarPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QQ-744245104.MMCalendarPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMCalendarPicker;
+			};
+			name = Debug;
+		};
+		B0380F281DD1C6EA00BC487C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = M99GJD8799;
+				INFOPLIST_FILE = MMCalendarPickerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "QQ-744245104.MMCalendarPickerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = MMCalendarPicker;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0380EEE1DD1C6EA00BC487C /* Build configuration list for PBXProject "MMCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0380F1E1DD1C6EA00BC487C /* Debug */,
+				B0380F1F1DD1C6EA00BC487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0380F201DD1C6EA00BC487C /* Build configuration list for PBXNativeTarget "MMCalendarPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0380F211DD1C6EA00BC487C /* Debug */,
+				B0380F221DD1C6EA00BC487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0380F231DD1C6EA00BC487C /* Build configuration list for PBXNativeTarget "MMCalendarPickerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0380F241DD1C6EA00BC487C /* Debug */,
+				B0380F251DD1C6EA00BC487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B0380F261DD1C6EA00BC487C /* Build configuration list for PBXNativeTarget "MMCalendarPickerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0380F271DD1C6EA00BC487C /* Debug */,
+				B0380F281DD1C6EA00BC487C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0380EEB1DD1C6EA00BC487C /* Project object */;
+}
